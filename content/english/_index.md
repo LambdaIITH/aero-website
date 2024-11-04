@@ -5,7 +5,7 @@ banner:
   bg_image: "images/slider-bg.jpg"
   bg_overlay: true
   title: "The Aviation Club </br> of IIT Hyderabad"
-  content: "Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus"
+  content: " Aeronautics and Drone Designing Club of IIT Hyderabad, is a community dedicated to explore the world of planes and drones."
   button:
     enable: true
     label: "Explore"
@@ -25,13 +25,7 @@ portfolio:
   enable: true
   bg_image: "images/feature-bg2.png"
   title: "WE BELIEVE IN GREAT IDEAS"
-  content: " Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-
-
-  Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-
-
-  Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+  content: " Aeronautics and Drone Designing Club of IIT Hyderabad, is a community dedicated to explore the world of planes and drones. We build cool stuff in our projects, organize interesting and engaging events explaining aerodynamics in a simple way and conduct exciting competitions.
   "
   button:
     enable: true
@@ -50,94 +44,79 @@ team:
   enable : true
   title : OUR TEAM
   team_member :
+   heads:
     # team member loop
-    - name : Vikhyath K
+    - name : Akshath Kumar
       image_webp : images/team/team-1.webp
-      image : images/team/team-1.jpg
-      designation : CEO/Founder
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+      image : images/team/akshath.jpg
+      designation : Overall Head
+      content :
       social :
-        - icon : fab fa-github 
+        - icon : fab fa-github
           link : "#"
-        - icon : fab fa-twitter 
+        - icon : fab fa-twitter
           link : "#"
         - icon : fab fa-linkedin   
           link : "#"
         - icon : fab fa-instagram  
           link : "#"
     # team member loop
-    - name : Rachit KD
+    - name : Sam Ashish
       image_webp : images/team/team-2.webp
-      image : images/team/team-2.jpg
-      designation : Manager
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+      image : images/team/ashish.jpg
+      designation : Technical Head
+      content :
       social :
-        - icon : fab fa-github 
+        - icon : fab fa-github
           link : "#"
-        - icon : fab fa-twitter 
+        - icon : fab fa-twitter
           link : "#"
         - icon : fab fa-linkedin   
           link : "#"
         - icon : fab fa-instagram  
           link : "#"
-        
+
     # team member loop
-    - name : Aayush Patel
+    - name : Shees
       image_webp : images/team/team-3.webp
-      image : images/team/team-3.jpg
-      designation : Web Developer
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+      image : images/team/Shees.jpg
+      designation : Events Head
+      content :
       social :
-        - icon : fab fa-github 
+        - icon : fab fa-github
           link : "#"
-        - icon : fab fa-twitter 
+        - icon : fab fa-twitter
           link : "#"
         - icon : fab fa-linkedin   
           link : "#"
         - icon : fab fa-instagram  
           link : "#"
-        
+   cores:
     # team member loop
-    - name : KG
+    - name : Varshith Ganta
       image_webp : images/team/team-4.webp
-      image : images/team/team-4.jpg
-      designation : SEO Specialist
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+      image : images/team/Varshith.jpg
+      designation : Core
+      content :
       social :
-        - icon : fab fa-github 
+        - icon : fab fa-github
           link : "#"
-        - icon : fab fa-twitter 
+        - icon : fab fa-twitter
           link : "#"
         - icon : fab fa-linkedin   
           link : "#"
         - icon : fab fa-instagram  
           link : "#"
 
-    - name : Rahuboy
+    - name : Jaswanth Kakumanu
       image_webp : images/team/team-1.webp
-      image : images/team/team-1.jpg
-      designation : CEO/Founder
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+      image : images/team/jaswanth.jpg
+      designation : Core
+      content :
       social :
-        - icon : fab fa-github 
+        - icon : fab fa-github
           link : "#"
-        - icon : fab fa-twitter 
-          link : "#"
-        - icon : fab fa-linkedin   
-          link : "#"
-        - icon : fab fa-instagram  
-          link : "#"
-
-
-    - name : Adhith
-      image_webp : images/team/team-1.webp
-      image : images/team/team-1.jpg
-      designation : CEO/Founder
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
-      social :
-        - icon : fab fa-github 
-          link : "#"
-        - icon : fab fa-twitter 
+        - icon : fab fa-twitter
           link : "#"
         - icon : fab fa-linkedin   
           link : "#"
@@ -145,15 +124,255 @@ team:
           link : "#"
 
 
-    - name : Aero dude
+    - name : Pranav Ingle
+      image_webp : images/team/team-1.webp
+      image : images/team/pranav.jpg
+      designation : Core
+      content :
+      social :
+        - icon : fab fa-github
+          link : "#"
+        - icon : fab fa-twitter
+          link : "#"
+        - icon : fab fa-linkedin   
+          link : "#"
+        - icon : fab fa-instagram  
+          link : "#"
+
+
+    - name : Om Godse
+      image_webp : images/team/team-1.webp
+      image : images/team/omgodse.jpg
+      designation : Core
+      content :
+      social :
+        - icon : fab fa-github
+          link : "#"
+        - icon : fab fa-twitter
+          link : "#"
+        - icon : fab fa-linkedin   
+          link : "#"
+        - icon : fab fa-instagram  
+          link : "#"
+
+
+    - name : Vamsi Krishna
+      image_webp : images/team/team-1.webp
+      image : images/team/vamsi.jpg
+      designation : Core
+      content :
+      social :
+        - icon : fab fa-github
+          link : "#"
+        - icon : fab fa-twitter
+          link : "#"
+        - icon : fab fa-linkedin   
+          link : "#"
+        - icon : fab fa-instagram  
+          link : "#"
+
+
+    - name : Nevil C Prince
       image_webp : images/team/team-1.webp
       image : images/team/team-1.jpg
-      designation : CEO/Founder
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+      designation : Core
+      content :
       social :
-        - icon : fab fa-github 
+        - icon : fab fa-github
           link : "#"
-        - icon : fab fa-twitter 
+        - icon : fab fa-twitter
+          link : "#"
+        - icon : fab fa-linkedin   
+          link : "#"
+        - icon : fab fa-instagram  
+          link : "#"
+
+
+    - name : Akhilesh Srivelu
+      image_webp : images/team/team-1.webp
+      image : images/team/Akhilesh.jpg
+      designation : Core
+      content :
+      social :
+        - icon : fab fa-github
+          link : "#"
+        - icon : fab fa-twitter
+          link : "#"
+        - icon : fab fa-linkedin   
+          link : "#"
+        - icon : fab fa-instagram  
+          link : "#"
+
+
+    - name : Aaryan Gandhi
+      image_webp : images/team/team-1.webp
+      image : images/team/Aryan_Gandhi.jpg
+      designation : Core
+      content :
+      social :
+        - icon : fab fa-github
+          link : "#"
+        - icon : fab fa-twitter
+          link : "#"
+        - icon : fab fa-linkedin   
+          link : "#"
+        - icon : fab fa-instagram  
+          link : "#"
+
+
+    - name : Thanuskha Patani
+      image_webp : images/team/team-1.webp
+      image : images/team/thanushka.jpg
+      designation : Core
+      content :
+      social :
+        - icon : fab fa-github
+          link : "#"
+        - icon : fab fa-twitter
+          link : "#"
+        - icon : fab fa-linkedin   
+          link : "#"
+        - icon : fab fa-instagram  
+          link : "#"
+
+
+    - name : Abhijit Kashyap
+      image_webp : images/team/team-1.webp
+      image : images/team/AbhijitKashyap.jpg
+      designation : Core
+      content :
+      social :
+        - icon : fab fa-github
+          link : "#"
+        - icon : fab fa-twitter
+          link : "#"
+        - icon : fab fa-linkedin   
+          link : "#"
+        - icon : fab fa-instagram  
+          link : "#"
+
+
+    - name : Harini S
+      image_webp : images/team/team-1.webp
+      image : images/team/harini.jpg
+      designation : Core
+      content :
+      social :
+        - icon : fab fa-github
+          link : "#"
+        - icon : fab fa-twitter
+          link : "#"
+        - icon : fab fa-linkedin   
+          link : "#"
+        - icon : fab fa-instagram  
+          link : "#"
+
+
+    - name : Ameen Aazam
+      image_webp : images/team/team-1.webp
+      image : images/team/Ameen_Aazam.jpg
+      designation : Core
+      content :
+      social :
+        - icon : fab fa-github
+          link : "#"
+        - icon : fab fa-twitter
+          link : "#"
+        - icon : fab fa-linkedin   
+          link : "#"
+        - icon : fab fa-instagram  
+          link : "#"
+
+
+    - name : Manasvi Gampa
+      image_webp : images/team/team-1.webp
+      image : images/team/manasvi.jpg
+      designation : Core
+      content :
+      social :
+        - icon : fab fa-github
+          link : "#"
+        - icon : fab fa-twitter
+          link : "#"
+        - icon : fab fa-linkedin   
+          link : "#"
+        - icon : fab fa-instagram  
+          link : "#"
+
+
+    - name : Jaidhar Ramagiri
+      image_webp : images/team/team-1.webp
+      image : images/team/Jaidhar.jpg
+      designation : Core
+      content :
+      social :
+        - icon : fab fa-github
+          link : "#"
+        - icon : fab fa-twitter
+          link : "#"
+        - icon : fab fa-linkedin   
+          link : "#"
+        - icon : fab fa-instagram  
+          link : "#"
+
+
+    - name : Firdose Anjum
+      image_webp : images/team/team-1.webp
+      image : images/team/firdose.jpg
+      designation : Core
+      content :
+      social :
+        - icon : fab fa-github
+          link : "#"
+        - icon : fab fa-twitter
+          link : "#"
+        - icon : fab fa-linkedin   
+          link : "#"
+        - icon : fab fa-instagram  
+          link : "#"
+
+
+    - name : Arav P
+      image_webp : images/team/team-1.webp
+      image : images/team/arav.jpg
+      designation : Core
+      content :
+      social :
+        - icon : fab fa-github
+          link : "#"
+        - icon : fab fa-twitter
+          link : "#"
+        - icon : fab fa-linkedin   
+          link : "#"
+        - icon : fab fa-instagram  
+          link : "#"
+
+
+    - name : Sudhanshu Shekhar
+      image_webp : images/team/team-1.webp
+      image : images/team/sudhanshu.jpg
+      designation : Core
+      content :
+      social :
+        - icon : fab fa-github
+          link : "#"
+        - icon : fab fa-twitter
+          link : "#"
+        - icon : fab fa-linkedin   
+          link : "#"
+        - icon : fab fa-instagram  
+          link : "#"
+
+
+    - name : Ankita Somani
+      image_webp : images/team/team-1.webp
+      image : images/team/Ankita.jpg
+      designation : Core
+      content :
+      social :
+        - icon : fab fa-github
+          link : "#"
+        - icon : fab fa-twitter
           link : "#"
         - icon : fab fa-linkedin   
           link : "#"
