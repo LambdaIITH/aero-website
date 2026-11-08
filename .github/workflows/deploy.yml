@@ -1,0 +1,20 @@
+# Builds the site with the shared SciTech build (LambdaIITH/scitech-hosting) and publishes it to the `deploy`
+# branch, which Lambda's server serves at https://aero.iith.dev. Pull requests only get the build, as a check.
+name: Build and publish
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  build:
+    uses: LambdaIITH/scitech-hosting/.github/workflows/build.yml@main
+    permissions:
+      contents: write # to publish the build to the deploy branch
+    with:
+      url: https://aero.iith.dev/
+      hugo: 0.87.0
